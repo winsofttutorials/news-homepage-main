@@ -1,60 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | News homepage</title>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+    <!-- Stylesheet link 👍 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <img src="./assets/images/logo.svg" alt="logo" class="logo" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+        <label for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <img src="./assets/images/icon-menu.svg" alt="" class="menu-icon" />
+        </label>
+      </nav>
+      <section class="hero-section">
+        <div class="gallery-frame">
+          <div class="webinar">
+            <div class="gallery">
+              <img
+                src="./assets/images/image-web-3-desktop.jpg"
+                alt=""
+                width="100%"
+              />
+            </div>
+            <div class="row">
+              <div class="col1">
+                <h1 class="web-title">The Bright Future of Web 3.0?</h1>
+              </div>
+              <div class="col2">
+                <p class="web3-info">
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <a href="#" class="readmore">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="discoveries">
+            <h1 class="disc-title">New</h1>
+            <div class="discovery-frame">
+              <div class="innovation">
+                <h2>Hydrogen VS Electric Cars</h2>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </div>
+              <hr />
+              <div class="innovation">
+                <h2>The Downsides of AI Artistry</h2>
+                <p>
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </div>
+              <hr />
+              <div class="innovation">
+                <h2>Is VC Funding Drying Up?</h2>
+                <p>
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="stages">
+        <div class="frame1">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+          <div class="stage-info">
+            <h3 class="stage-count">01</h3>
+            <p class="topics">Reviving Retro PCs</p>
+            <p class="topic-desc">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="frame1">
+          <img src="./assets/images/image-top-laptops.jpg" alt="" />
+          <div class="stage-info">
+            <h3 class="stage-count">02</h3>
+            <p class="topics">Top 10 Laptops of 2022</p>
+            <p class="topic-desc">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="frame1">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="" />
+          <div class="stage-info">
+            <h3 class="stage-count">03</h3>
+            <p class="topics">The Growth of Gaming</p>
+            <p class="topic-desc">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
 
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">IFIDI W. EPHOD</a>.
+    </div>
+  </body>
 </html>
